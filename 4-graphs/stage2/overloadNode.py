@@ -9,8 +9,8 @@ G=nx.Graph()
 
 for i in range(0,numNodes):
     G.add_node(i) #add nodes to graph
-        nodesValue.append([i,1]) #add nodes to list with value 1
-  count+=1
+    nodesValue.append([i,1]) #add nodes to list with value 1
+    count+=1
 
 #print G.number_of_nodes()
 
